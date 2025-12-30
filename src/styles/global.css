@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+}
+.section {
+  padding: 70px 90px;
+}
+.center {
+  text-align: center;
+}
+
+
+/* Responsive padding */
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 20px;
+  }
+}

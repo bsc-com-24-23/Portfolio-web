@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 220px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: #e5e7eb;
+}
+
+/* Text */
+.about-text h2 {
+  margin-bottom: 12px;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 220px;
+  }
+}
+@media (max-width: 480px) {
+  .profile-image {
+    width: 140px;
+    height: 180px;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav span {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.subtitle {
+  margin-top: -10px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav span {
+    display: block;
+    margin: 10px 0;
+  }
+}
