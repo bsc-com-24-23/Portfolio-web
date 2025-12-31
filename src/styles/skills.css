@@ -16,7 +16,7 @@
   margin: 8px 0;
 }
 .skill-card:hover {
-    background: darkblue; /* Change background on hover */
+    background: darkblue; 
     color: white; /* Change text color on hover */
 }
 /* Tablet */

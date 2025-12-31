@@ -16,9 +16,8 @@ export default function About() {
           A passionate software developer constantly learning and building.
           I enjoy working with modern technologies to create practical,
           efficient, and user-friendly applications. Open to client work & team collaboration.
-
-          
         </p>
+        
         <p>Any project? Contact me!</p>
       </div>
     </section>
